@@ -1,8 +1,10 @@
 public interface Eatable {
-    void add();
+    void add(Sweets sweet);
     void del();
     void del(int index);
-    int getWeight();
-    int getPrice();
-    void getDescription();
+    void printWeight();
+    void printPrice();
+    void printDescription();
+    void smartOptimizationWeight(int weight);
+    void smartOptimizationPrice(int price);
 }
