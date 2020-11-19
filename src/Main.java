@@ -5,6 +5,7 @@ public class Main {
         sweetBox.add(new Cookie());
         sweetBox.add(new Waffles());
         sweetBox.add(new Cheesecake());
+        sweetBox.add(new Waffles());
         sweetBox.printDescription();
         sweetBox.printPrice();
         sweetBox.printWeight();
