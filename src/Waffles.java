@@ -6,4 +6,11 @@ public class Waffles extends Sweets {
         super.sweetnessIndex = 3;
     }
 
+    public Waffles(String name, int price, int weight, int sIndex) {
+        super.name = name;
+        super.price = price;
+        super.weight = weight;
+        super.sweetnessIndex = sIndex;
+    }
+
 }

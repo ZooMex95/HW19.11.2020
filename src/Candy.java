@@ -6,4 +6,11 @@ public class Candy extends Sweets {
         super.sweetnessIndex = 1;
     }
 
+    public Candy(String name, int price, int weight, int sIndex) {
+        super.name = name;
+        super.price = price;
+        super.weight = weight;
+        super.sweetnessIndex = sIndex;
+    }
+
 }

@@ -59,9 +59,9 @@ public class SweetBox implements Eatable {
 
     @Override
     public void smartOptimizationWeight(int weight) {
-        int minWeight = list.get(0).weight;
-        int temp = 0;
         while (getWeight() > weight) {
+            int minWeight = list.get(0).weight;
+            int temp = 0;
             for (int i = 1; i < list.size(); i++) {
                 if (list.get(i).weight < minWeight) {
                     minWeight = list.get(i).weight;
@@ -75,9 +75,9 @@ public class SweetBox implements Eatable {
 
     @Override
     public void smartOptimizationPrice(int weight) {
-        int minPrice = list.get(0).price;
-        int temp = 0;
         while (getWeight() > weight) {
+            int minPrice = list.get(0).price;
+            int temp = 0;
             for (int i = 1; i < list.size(); i++) {
                 if (list.get(i).price < minPrice) {
                     minPrice = list.get(i).price;
